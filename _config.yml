@@ -8,6 +8,7 @@ logo:             images/ork-logo.svg # logo visible in the topbar
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 # url: http://aronbordin.com/neo-hpstr-jekyll-theme
+baseurl: /read-all-about-it
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -73,8 +74,7 @@ locale:      en_US
 future:      true
 highlighter: rouge
 markdown:    kramdown
-gems:
-  - jekyll-sitemap
+
 sass:
   sass_dir: _sass
   style: compressed
@@ -114,6 +114,10 @@ titlecase: true
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+<<<<<<< HEAD
 gems: [jekyll-paginate]
 
 baseurl: "/read-all-about-it"
+=======
+gems: [jekyll-paginate, jekyll-sitemap]
+>>>>>>> master
