@@ -1,4 +1,4 @@
-title:            ORK
+title:            ork
 description:      "Domainy, oniony, eventy, CQRS-uh-y tools to help you focus on results and not mechanics."
 # put your disqus here
 disqus_shortname: 
@@ -38,9 +38,9 @@ menu:
 owner:
   name:           Brent McCullough
   site:           http://github.com/aethon
-  avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  #avatar:         images/avatar.jpg
+  #bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  #email:          you@email.com
   # Twitter nick for use in Twitter cards and follow button.
   #twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
   # GitHub nick for use in follow button in author block.
@@ -115,3 +115,5 @@ titlecase: true
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 gems: [jekyll-paginate]
+
+baseurl: "read-all-about-it"
