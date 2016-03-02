@@ -5,10 +5,7 @@ disqus_shortname:
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             images/ork-logo.svg # logo visible in the topbar
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-# url: http://aronbordin.com/neo-hpstr-jekyll-theme
-baseurl: /read-all-about-it
+url: http://localhost:4000/read-all-about-it
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -18,22 +15,6 @@ baseurl: /read-all-about-it
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: '/theme-setup/'
-  - title: 'Tags'
-    url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
-  - title: 'Favorites'
-    url: '#'
-    submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
 
 # Owner/author information
 owner:
@@ -93,14 +74,6 @@ kramdown:
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-#  enable_coderay: true
-
-#  coderay:
-#    coderay_line_numbers: nil
-#    coderay_line_numbers_start: 1
-#    coderay_tab_width: 4
-#    coderay_bold_every: 10
-#    coderay_css: class
 
 # Octopress
 # Default extensions
@@ -114,10 +87,5 @@ titlecase: true
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-<<<<<<< HEAD
-gems: [jekyll-paginate]
 
-baseurl: "/read-all-about-it"
-=======
 gems: [jekyll-paginate, jekyll-sitemap]
->>>>>>> master
